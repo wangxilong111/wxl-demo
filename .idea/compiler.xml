@@ -2,15 +2,17 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Zuul_Demo" />
-        <module name="Eureka_Demo" />
-        <module name="ServiceDemo" />
-        <module name="Demo-Common" />
-        <module name="Demo-Model" />
+        <module name="demo-common" />
+        <module name="demo-service" />
+        <module name="demo-zuul" />
+        <module name="book-borrow-system" />
+        <module name="demo-model" />
+        <module name="demo-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,16 +24,17 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Demo-Common" options="-parameters" />
       <module name="Demo-Eureka" options="-parameters" />
-      <module name="Demo-Model" options="-parameters" />
       <module name="Demo-Service" options="-parameters" />
       <module name="Demo-Zuul" options="-parameters" />
-      <module name="Eureka_Demo" options="-parameters" />
-      <module name="ServiceDemo" options="-parameters" />
       <module name="Service_Demo1" options="-parameters" />
       <module name="SpringCloud_Demo" options="-parameters" />
-      <module name="Zuul_Demo" options="-parameters" />
+      <module name="book-borrow-system" options="-parameters" />
+      <module name="demo-common" options="-parameters" />
+      <module name="demo-eureka" options="-parameters" />
+      <module name="demo-model" options="-parameters" />
+      <module name="demo-service" options="-parameters" />
+      <module name="demo-zuul" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,19 @@
+# 开发环境配置
+server:
+    # 服务器的HTTP端口，默认为8080
+    port: 8888
+
+# Spring配置
+spring:
+    # 资源信息
+    messages:
+        # 国际化资源文件路径
+        basename: i18n/messages
+    # 服务模块
+    devtools:
+        restart:
+            # 热部署开关
+            enabled: true
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+
