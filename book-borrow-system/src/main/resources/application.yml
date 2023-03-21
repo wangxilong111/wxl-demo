@@ -5,15 +5,9 @@ server:
 
 # Spring配置
 spring:
-    # 资源信息
-    messages:
-        # 国际化资源文件路径
-        basename: i18n/messages
-    # 服务模块
-    devtools:
-        restart:
-            # 热部署开关
-            enabled: true
     datasource:
-        type: com.alibaba.druid.pool.DruidDataSource
+        username: root
+        password: 123456
+        url: jdbc:mysql://localhost:3306/mybatis?useUnicode=true&characterEncoding=utf-8
+        driver-class-name: com.mysql.cj.jdbc.Driver
 
