@@ -6,17 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Eureka_Demo" />
         <module name="Zuul_Demo" />
+        <module name="Eureka_Demo" />
         <module name="ServiceDemo" />
+        <module name="Demo-Common" />
+        <module name="Demo-Model" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Demo-Eureka" target="1.8" />
+      <module name="Demo-Service" target="1.8" />
+      <module name="Demo-Zuul" target="8" />
       <module name="Service_Demo1" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Demo-Common" options="-parameters" />
+      <module name="Demo-Eureka" options="-parameters" />
+      <module name="Demo-Model" options="-parameters" />
+      <module name="Demo-Service" options="-parameters" />
+      <module name="Demo-Zuul" options="-parameters" />
       <module name="Eureka_Demo" options="-parameters" />
       <module name="ServiceDemo" options="-parameters" />
       <module name="Service_Demo1" options="-parameters" />

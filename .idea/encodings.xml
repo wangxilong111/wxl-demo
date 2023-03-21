@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/Eureka_Demo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ServiceDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo-Common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo-Eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo-Model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo-Service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Demo-Zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Service_Demo1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Zuul_Demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
